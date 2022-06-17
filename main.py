@@ -4,11 +4,11 @@ from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
 import os
-import time
-import cv2
-import mediapipe as mp
-import numpy as np
-import base64
+# import time
+# import cv2
+# import mediapipe as mp
+# import numpy as np
+# import base64
 
 #load fastapi
 app = FastAPI()
